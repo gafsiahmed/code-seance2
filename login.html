@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Seance2</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/form.png" type="image/x-icon">
+</head>
+<body>
+
+    
+
+    <h1 class="title" >Welcome back dear user</h1>
+    <hr>
+
+
+    <form action="index.html">
+        <div id="nameField" class="inputField">
+            <label for="">Entre votre nom : </label>
+            <input type="text"  placeholder="Entrer votre nom complet" value="Jhon doe"  required >
+        </div>
+
+        <div id="emailField" class="inputField" >
+            <label for="">Enter your email adress :</label>
+            <input type="email" placeholder="Entrer votre e-mail" required>
+
+        </div>
+        
+
+        <div class="inputField">
+            <label for="">Enter your password</label>
+            <input type="password" required >
+        </div>
+       
+        
+        <div class="inputField">
+            <label for="">Entrer votre date de naissance </label>
+            <input type="date">
+        </div>
+     
+        <div class="inputField">
+            <label for="">Entre votre civilité</label>
+            <input type="checkbox"> Célibataire
+            <input type="checkbox"> En couple
+            <input type="checkbox"> Marié
+        </div>
+
+        <div class="inputField" >
+
+            <label for="">Enter your gender</label>
+            <input type="radio" name="gender"> Homme 
+            <input type="radio" name="gender"> Femme 
+            <input type="radio" name="gender" > Autre 
+        </div>
+        
+        
+        <div class="inputField">
+            <label for=""> What  bootcamp you wanna register in </label>
+            <select >
+                <option value="PY">Bootcamp Python</option>
+                <option value="DEV" selected >Bootcamp Devlopment web</option>
+                <option value="UX">Bootcamp ux design</option>
+            </select>
+        </div>
+
+        <!-- <div class="inputField">
+            <label for="">If you have a problem please tell us</label>
+            <br>
+            <textarea rows="20"  cols="50">
+                Don't hesitate to tell the truth
+            </textarea>
+        </div> -->
+
+
+        <button type="reset">
+            reset
+        </button>
+        <button type="submit">Login</button>
+        <hr>
+    </form>
+
+
+</body>
+</html>
